@@ -1,8 +1,8 @@
 'use client'
 import Container from "../Container";
-import Logo from "../Logo";
-import Search from "../Search";
-import UserMenu from "../UserMenu";
+import Logo from "./Logo";
+import Search from "./Search";
+import UserMenu from "./UserMenu";
 
 const Navbar = () => {
   return (
