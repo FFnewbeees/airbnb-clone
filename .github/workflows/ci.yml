@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run TypeScript type check
-        run: npm run tsc -- --noEmit
+        run: npm run typecheck
 
       - name: Run lint
         run: npm run lint
